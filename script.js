@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (distancia < 0) {
       clearInterval(intervalo);
-      contadorElement.innerHTML = "00:00:00";
+      contadorElement.style.display = "none";
       botaoAcessar.style.display = "block";
     }
   }
