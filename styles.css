@@ -1,0 +1,34 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.bg {
+  background-color: #000;
+  height: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.contador {
+  font-size: 4em;
+}
+
+.botao {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none; /* O botão é ocultado inicialmente */
+}
+
+.botao:hover {
+  background-color: #0056b3;
+}
