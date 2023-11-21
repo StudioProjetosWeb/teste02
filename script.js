@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   const contadorElement = document.getElementById('contador');
   const botaoAcessar = document.getElementById('botaoAcessar');
-  const dataFim = new Date(Date.UTC(2023, 11 - 1, 8, 0, 1, 0)).getTime();
+  const dataFim = new Date(Date.UTC(2023, 0 - 1, 8, 0, 1, 0)).getTime();
 
   function updateCounter() {
     const currentTime = new Date().getTime();
